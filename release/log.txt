@@ -27,3 +27,4 @@ SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2025-02-06 17:09:33:02S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
 Git Push selected
 Git Push selected
+Git Push selected
