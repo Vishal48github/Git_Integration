@@ -15,16 +15,15 @@ light
 2024-01-30 17:12:57:01S +0530 [INFO] com.newvision.assureit.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\FinalSelenium4ProjectAssureIT\assureit-Dev\Dist\release\lib\assureit-engine-1.0.jar
 2024-01-30 17:13:22:01S +0530 [INFO] com.newvision.assureit.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\FinalSelenium4ProjectAssureIT\assureit-Dev\Dist\release\lib\assureit-engine-1.0.jar
 2024-01-30 17:13:57:01S +0530 [INFO] com.newvision.assureit.ide.main.Main finish:assureit IDE has been Terminated - [ Total Time : 00:01:52.955 ]
-2025-02-06 17:09:29:02S +0530 [INFO] com.newvision.assureit.ide.main.Main main:Launching assureit IDE
+2025-02-06 17:36:59:02S +0530 [INFO] com.newvision.assureit.ide.main.Main main:Launching assureit IDE
 light
-2025-02-06 17:09:30:02S +0530 [INFO] com.newvision.assureit.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\AssureIT_Latest\phase2_assureit\Dist\release\lib\assureit-engine-1.0.jar
+2025-02-06 17:37:00:02S +0530 [INFO] com.newvision.assureit.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\AssureIT_Latest\phase2_assureit\Dist\release\lib\assureit-engine-1.0.jar
 SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
 SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
 SLF4J: Ignoring binding found at [jar:file:/C:/Users/vishal.bhosale/.m2/repository/org/slf4j/slf4j-nop/1.7.28/slf4j-nop-1.7.28.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
-2025-02-06 17:09:33:02S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2025-02-06 17:37:03:02S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
 Git Push selected
-Git Push selected
-Git Push selected
+Copying release folder...
