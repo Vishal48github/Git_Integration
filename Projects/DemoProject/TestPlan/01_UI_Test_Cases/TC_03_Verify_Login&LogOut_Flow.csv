@@ -1,0 +1,7 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,01_UI_Test_Cases:Naviagation Url,,,
+2,Execute,,01_UI_Test_Cases:Menu_Login,,,
+3,Execute,,01_UI_Test_Cases:LoginFlow,,,
+4,Execute,,01_UI_Test_Cases:LogOutFlow,,,
+5,LoginEmail,"Wait for [<Object>] to be visible ",waitForElementToBeVisible,,,Registration Page
+6,Browser,"Take a Screen Shot ",takeScreenshot,,,

@@ -1,0 +1,20 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,datitle,"Click the [<Object>] ",Click,,,React
+2,datitle1,Enter the value [<Data>] in the Field [<Object>],Set,UI_PaymentDetails:Title,,React
+3,dafirstname,Enter the value [<Data>] in the Field [<Object>],Set,UI_PaymentDetails:FirstName,,React
+4,dalastname,Enter the value [<Data>] in the Field [<Object>],Set,UI_PaymentDetails:LastName,,React
+5,daaddressline1,Enter the value [<Data>] in the Field [<Object>],Set,UI_PaymentDetails:Add1,,React
+6,daaddressline2,Enter the value [<Data>] in the Field [<Object>],Set,UI_PaymentDetails:Add2,,React
+7,dacity,Enter the value [<Data>] in the Field [<Object>],Set,UI_PaymentDetails:City,,React
+8,dastateprovinceregion,Enter the value [<Data>] in the Field [<Object>],Set,UI_PaymentDetails:State,,React
+9,dazippostcode,Enter the value [<Data>] in the Field [<Object>],Set,UI_PaymentDetails:zip,,React
+10,Next,"Click the [<Object>] ",Click,,,React
+11,cardnumber1,Enter the value [<Data>] in the Field [<Object>],Set,UI_PaymentDetails:CardNo,,React
+12,nameoncard1,Enter the value [<Data>] in the Field [<Object>],Set,UI_PaymentDetails:CardName,,React
+13,expirymonth,Enter the value [<Data>] in the Field [<Object>],Set,UI_PaymentDetails:expM,,React
+14,expiryyear,Enter the value [<Data>] in the Field [<Object>],Set,UI_PaymentDetails:expY,,React
+15,securitycode,Enter the value [<Data>] in the Field [<Object>],Set,UI_PaymentDetails:SecurityCode,,React
+16,Confirm,"Click the [<Object>] ",Click,,,React
+17,OrderNo,Assert if [<Object>]'s Text Contains [<Data>],storeTextinDataSheet,UI_PaymentDetails:OrderNumber,,React
+18,UserEmail,Assert if [<Object>]'s Text Contains [<Data>],storeTextinDataSheet,UI_PaymentDetails:Email,,React
+19,Date of Deleviry,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,UI_PaymentDetails:DateOfDel,,React

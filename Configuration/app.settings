@@ -1,0 +1,17 @@
+#Created
+#Tue Jan 30 17:06:25 IST 2024
+harPort=11234
+elementWaitTime=10
+logfile=log.txt
+showDateTime=true
+maxFileSize=4.5
+defaultLogLevel=INFO
+helpdoc=https\://newvisionqahub.github.io/assureit-Helpdoc
+themes=Amethyst,Coral,Pearl,Sapphire
+addonPort=8887
+dateTimeFormat=yyyy-MM-dd HH\:mm\:ss\:SSS Z
+defaultWaitTime=10
+logBackupLoc=backup/log
+loadRecentProject=true
+theme=Sapphire
+standaloneReport=false

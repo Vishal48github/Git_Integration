@@ -1,0 +1,17 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://172.40.0.31:3000/,Start Param,
+2,Execute,,01_UI_Test_Cases:Menu_Login,,,
+3,Create Your E-Shop Account,"Click the [<Object>] ",Click,,,React
+4,firstName,"Click the [<Object>] ",Click,,,React
+5,firstName1,Enter the value [<Data>] in the Field [<Object>],Set,@Avi,,React
+6,lastName,Enter the value [<Data>] in the Field [<Object>],Set,@Sharma,,React
+7,Execute,,01_UI_Test_Cases:RandomEmailID,,,
+8,email,Enter the value [<Data>] in the Field [<Object>],Set,%EmailID%,,React
+9,Browser,store  value [<Data>] in Variable [<Condition>],updateUserDefine,%EmailID%,%email%,
+"//*10",Browser,store variable value [<Condition>] in data sheet[<Data>],storeVariableInDataSheet,LD:Email,%email%,
+11,email,Enter the value [<Data>] in the Field [<Object>],storeTextinDataSheet,LD:Email,,React
+12,password,Enter the Decrypted value [<Data>] in the Field [<Object>],Set,@Test,,React
+13,confirmpassword,Enter the Decrypted value [<Data>] in the Field [<Object>],Set,"@Test ",,React
+14,Browser,store  value [<Data>] in Variable [<Condition>],updateUserDefine,"@Test ",%password%,
+15,Browser,store variable value [<Condition>] in data sheet[<Data>],storeVariableInDataSheet,LD:Password,%password%,
+16,Create Your E-Shop Account1,"Click the [<Object>] ",Click,,End Param,React

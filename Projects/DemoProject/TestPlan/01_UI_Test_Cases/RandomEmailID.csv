@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,01_UI_Test_Cases:RandomSeven,,,
+2,Browser,Add a variable to access within testcase,AddVar,"=Concat(AVI_,%Random7%,@gmail.com):",%EmailID%,
+3,Browser,print the data [<Data>],print,%EmailID%,"#EmailID",

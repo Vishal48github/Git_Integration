@@ -1,0 +1,17 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://localhost:3000/,,
+2,Execute,,01_UI_Test_Cases:Menu_Login,,,
+3,Create Your E-Shop Account,"Click the [<Object>] ",Click,,,React
+4,firstName,"Click the [<Object>] ",Click,,,React
+5,firstName1,Enter the value [<Data>] in the Field [<Object>],Set,Login:First Name,,React
+6,lastName,Enter the value [<Data>] in the Field [<Object>],Set,Login:Last Name,,React
+7,Execute,,01_UI_Test_Cases:RandomEmailID,,,
+"*8",email,Enter the value [<Data>] in the Field [<Object>],Set,%EmailID%,,React
+9,Browser,store  value [<Data>] in Variable [<Condition>],updateUserDefine,%EmailID%,%email%,
+10,email,Enter the value [<Data>] in the Field [<Object>],storeTextinDataSheet,Login:Email,,React
+11,password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,Login:Password,,React
+12,confirmpassword,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,Login:Password,,React
+13,Browser,store  value [<Data>] in Variable [<Condition>],updateUserDefine,Login:Password,%password%,
+14,Create Your E-Shop Account1,"Click the [<Object>] ",Click,,,React
+15,menu,"Click the [<Object>] ",Click,,,React
+16,UserName,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,Login:First Name,,React

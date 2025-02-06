@@ -1,0 +1,2 @@
+Scenario,Flow,Iteration,SubIteration,Email,ResponseCode,id,firstName,lastName,password,pass_ency
+API and UI combination Test Cases,TC01_Registration_Via_API_do_UILogin,1,1,AVI_4008733@gmail.com,200,55,Avinash,Sharma,a123456A,b0NVmVfzlCTvQW9BQu8Mhg== Enc

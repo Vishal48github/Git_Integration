@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Menu Button,"Click the [<Object>] ",Click,,,Registration Page
+2,Login,"Wait for [<Object>] to be visible ",waitForElementToBeVisible,,,Registration Page
+3,Login,"Click the [<Object>] ",Click,,,Registration Page

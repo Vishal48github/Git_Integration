@@ -1,0 +1,2 @@
+Scenario,Flow,Iteration,SubIteration,amount,StatusCode,cardNumber,cvv,expiration_month,expiration_year,name,street_address,city,state,zip
+02_API_Test_Cases,TC_04_Payment_API,1,1,5,200,1111111111111115,123,12,2025,Avinash,8320 E. West St.,Spokane,WA,85284

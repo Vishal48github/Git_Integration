@@ -1,0 +1,34 @@
+2024-01-30 17:06:26:01S +0530 [INFO] com.newvision.assureit.ide.main.Main main:Launching assureit IDE
+light
+2024-01-30 17:06:26:01S +0530 [INFO] com.newvision.assureit.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\FinalSelenium4ProjectAssureIT\assureit-Dev\Dist\release\lib\assureit-engine-1.0.jar
+2024-01-30 17:06:27:01S +0530 [INFO] com.newvision.assureit.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2024-01-30 17:06:30:01S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2024-01-30 17:06:53:01S +0530 [INFO] com.newvision.assureit.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\FinalSelenium4ProjectAssureIT\assureit-Dev\Dist\release\lib\assureit-engine-1.0.jar
+2024-01-30 17:08:41:01S +0530 [INFO] com.newvision.assureit.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\FinalSelenium4ProjectAssureIT\assureit-Dev\Dist\release\lib\assureit-engine-1.0.jar
+2024-01-30 17:10:31:01S +0530 [INFO] com.newvision.assureit.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\FinalSelenium4ProjectAssureIT\assureit-Dev\Dist\release\lib\assureit-engine-1.0.jar
+2024-01-30 17:10:59:01S +0530 [INFO] com.newvision.assureit.ide.main.Main finish:assureit IDE has been Terminated - [ Total Time : 00:04:33.090 ]
+2024-01-30 17:12:04:01S +0530 [INFO] com.newvision.assureit.ide.main.Main main:Launching assureit IDE
+light
+2024-01-30 17:12:05:01S +0530 [INFO] com.newvision.assureit.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\FinalSelenium4ProjectAssureIT\assureit-Dev\Dist\release\lib\assureit-engine-1.0.jar
+2024-01-30 17:12:06:01S +0530 [INFO] com.newvision.assureit.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2024-01-30 17:12:08:01S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+2024-01-30 17:12:57:01S +0530 [INFO] com.newvision.assureit.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\FinalSelenium4ProjectAssureIT\assureit-Dev\Dist\release\lib\assureit-engine-1.0.jar
+2024-01-30 17:13:22:01S +0530 [INFO] com.newvision.assureit.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in D:\FinalSelenium4ProjectAssureIT\assureit-Dev\Dist\release\lib\assureit-engine-1.0.jar
+2024-01-30 17:13:57:01S +0530 [INFO] com.newvision.assureit.ide.main.Main finish:assureit IDE has been Terminated - [ Total Time : 00:01:52.955 ]
+2025-02-06 19:00:54:02S +0530 [INFO] com.newvision.assureit.ide.main.Main main:Launching assureit IDE
+light
+2025-02-06 19:00:54:02S +0530 [INFO] com.newvision.assureit.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\AssureIT_Latest\phase2_assureit\Dist\release\lib\assureit-engine-1.0.jar
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/vishal.bhosale/.m2/repository/org/slf4j/slf4j-nop/1.7.28/slf4j-nop-1.7.28.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2025-02-06 19:00:58:02S +0530 [WARNING] javafx.fxml.FXMLLoader$ValueElement processValue:Loading FXML document with JavaFX API of version 19 by JavaFX runtime of version 13-ea
+Git Push selected
+2025-02-06 19:01:25:02S +0530 [SEVERE] com.newvision.assureit.datalib.component.utils.FileUtils getRecords:File [C:\AssureIT_Latest\phase2_assureit\Dist\release\Projects\DemoProject\TestPlan\Mobile_Automation\NewTestCase.csv] doesn't exist
+2025-02-06 19:01:45:02S +0530 [INFO] com.newvision.assureit.datalib.component.utils.FileUtils renameFile:C:\AssureIT_Latest\phase2_assureit\Dist\release\Projects\DemoProject\TestPlan\Mobile_Automation\NewTestCase.csv Renamed to mytest.csv
+2025-02-06 19:01:45:02S +0530 [INFO] com.newvision.assureit.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [mytest]
+2025-02-06 19:01:45:02S +0530 [INFO] com.newvision.assureit.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [mytest]
+Git Push selected
+Copying release folder contents...

@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,Title,FirstName,LastName,Add1,Add2,City,State,zip,CardNo,CardName,expM,expY,OrderNumber,Email,DateOfDel,SecurityCode
+01_UI_Test_Cases,PaymentFlow,1,1,PhoneOrder,Avinash,Sharma,Sam,Smith,SanJose,CA,95111,1111111111111113,Master,12,2025,ESHOP921341,AVI_4208542@gmail.com,Dec,123
+01_UI_Test_Cases,TC_04_Verify_Purchage_Flow,1,1,PhoneOrder,Avinash,Sharma,Sam,Smith,SanJose,CA,95111,1111111111111113,Master,12,2025,ESHOP310703,AVI_3126015@gmail.com,Dec,123
