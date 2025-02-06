@@ -1,0 +1,876 @@
+<Root type="OR" ref="DemoProject">
+  <Page title="React App" ref="React">
+    <ObjectGroup ref="Search product or brand">
+      <Object frame="" ref="Search product or brand">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="productsearch" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@placeholder='Search product or brand']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input" ref="class" pref="7"/>
+        <Property value="#productsearch" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input id=&quot;productsearch&quot; placeholder=&quot;Search product or brand&quot; type=&quot;text&quot; aria-label=&quot;Product search&quot; class=&quot;MuiInputBase-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Search Button">
+      <Object frame="" ref="Search Button">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//span[@class=&quot;MuiIconButton-label&quot;])[3]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/button/span/svg" ref="xpath" pref="6"/>
+        <Property value="[object SVGAnimatedString]" ref="class" pref="7"/>
+        <Property value="#searchicon > span.MuiIconButton-label > svg.MuiSvgIcon-root" ref="css" pref="8"/>
+        <Property value="svg" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;MuiIconButton-label&quot;>&lt;svg class=&quot;MuiSvgIcon-root&quot; focusable=&quot;false&quot; viewBox=&quot;0 0 24 24&quot; aria-hidden=&quot;true&quot;>&lt;path d=&quot;M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z&quot;>&lt;/path>&lt;/svg>&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Apple iPhone XR">
+      <Object frame="" ref="Apple iPhone XR">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="Apple iPhone XR" ref="link_text" pref="4"/>
+        <Property value="//a[contains(normalize-space(text()),'Apple iPhone XR')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div[2]/div[2]/div/div[2]/div/h6/a" ref="xpath" pref="6"/>
+        <Property value="linkstyle" ref="class" pref="7"/>
+        <Property value="h6.MuiTypography-root.MuiTypography-h6 > a.linkstyle" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a class=&quot;linkstyle&quot; href=&quot;/cts-shop/product/eeb0da370c7b447eb3416c04189cb76e&quot;>Apple iPhone XR&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add to your basket">
+      <Object frame="" ref="Add to your basket">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Add to your basket']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div[2]/div/button/span)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiButton-label" ref="class" pref="7"/>
+        <Property value="#a2b > span.MuiButton-label" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;MuiButton-label&quot;>Add to your basket&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Product Name">
+      <Object frame="" ref="Product Name">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="//h6[@class=&quot;MuiTypography-root MuiTypography-h6&quot;]/a" ref="relative_xpath" pref="5"/>
+        <Property value="Apple iPhone XR" ref="link_text" pref="4"/>
+        <Property value="/html/body/div/div/div[2]/div[2]/div/div[2]/div/h6/a" ref="xpath" pref="6"/>
+        <Property value="linkstyle" ref="class" pref="7"/>
+        <Property value="h6.MuiTypography-root.MuiTypography-h6 > a.linkstyle" ref="css" pref="8"/>
+        <Property value="a" ref="type" pref="9"/>
+        <Property value="&lt;a class=&quot;linkstyle&quot; href=&quot;/cts-shop/product/eeb0da370c7b447eb3416c04189cb76e&quot;>Apple iPhone XR&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Product Name Text">
+      <Object frame="" ref="Product Name Text">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//h4" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/h4" ref="xpath" pref="6"/>
+        <Property value="MuiTypography-root MuiTypography-h4" ref="class" pref="7"/>
+        <Property value="h4.MuiTypography-root.MuiTypography-h4" ref="css" pref="8"/>
+        <Property value="h4" ref="type" pref="9"/>
+        <Property value="&lt;h4 class=&quot;MuiTypography-root MuiTypography-h4&quot;>Apple iPhone XR&lt;/h4>" ref="outerHTML" pref="10"/>
+        <Property value="h4" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Product Cost">
+      <Object frame="" ref="Product Cost">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//h5[@class=&quot;MuiTypography-root productprice MuiTypography-h5&quot;]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div[2]/div/h5)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiTypography-root productprice MuiTypography-h5" ref="class" pref="7"/>
+        <Property value="html > body > #root > div > div.MuiPaper-root.MuiCard-root productpage MuiPaper-rounded > div.details > div.MuiCardContent-root.producttitle > h5.MuiTypography-root.productprice MuiTypography-h5" ref="css" pref="8"/>
+        <Property value="h5" ref="type" pref="9"/>
+        <Property value="&lt;h5 class=&quot;MuiTypography-root productprice MuiTypography-h5&quot;>£698&lt;/h5>" ref="outerHTML" pref="10"/>
+        <Property value="h5" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="[object SVGAnimatedString]">
+      <Object frame="" ref="[object SVGAnimatedString]">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/div/div/header/div/button/span/svg/path" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/header/div/button/span/svg/path" ref="xpath" pref="6"/>
+        <Property value="[object SVGAnimatedString]" ref="class" pref="7"/>
+        <Property value="#menu > path" ref="css" pref="8"/>
+        <Property value="path" ref="type" pref="9"/>
+        <Property value="&lt;path d=&quot;M3 15h18v-2H3v2zm0 4h18v-2H3v2zm0-8h18V9H3v2zm0-6v2h18V5H3z&quot;>&lt;/path>" ref="outerHTML" pref="10"/>
+        <Property value="path" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Create Your E-Shop Account">
+      <Object frame="" ref="Create Your E-Shop Account">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Create Your E-Shop Account']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div/div[2]/button/span)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiButton-label" ref="class" pref="7"/>
+        <Property value="html > body > #root > div > div.MuiGrid-root.MuiGrid-container MuiGrid-justify-xs-center > div.MuiGrid-root.MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 > div.login > button.MuiButtonBase-root.MuiButton-root MuiButton-contained MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth > span.MuiButton-label" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;MuiButton-label&quot;>Create Your E-Shop Account&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="firstName">
+      <Object frame="" ref="firstName">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="firstName" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/div/div/div/div/form/div/div/input" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div/form/div/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#firstName" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;firstName&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="firstName1">
+      <Object frame="" ref="firstName1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="firstName" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Avinash']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div/form/div/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#firstName" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;firstName&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="lastName">
+      <Object frame="" ref="lastName">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="lastName" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Sharma']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/form/div[2]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#lastName" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;lastName&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="email">
+      <Object frame="" ref="email">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="email" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='avinash.sharma@newvision-software.com']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/form/div[3]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#email" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;email&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;AVI_5123100@gmail.com&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="password">
+      <Object frame="" ref="password">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="password" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='a123456A']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/form/div[4]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#password" ref="css" pref="8"/>
+        <Property value="password" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;password&quot; required=&quot;&quot; type=&quot;password&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="confirmpassword">
+      <Object frame="" ref="confirmpassword">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="confirmpassword" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//input[@value='a123456A'])[2]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/form/div[5]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#confirmpassword" ref="css" pref="8"/>
+        <Property value="password" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;confirmpassword&quot; required=&quot;&quot; type=&quot;password&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Create Your E-Shop Account1">
+      <Object frame="" ref="Create Your E-Shop Account1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Create Your E-Shop Account']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div/form/button/span)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiButton-label" ref="class" pref="7"/>
+        <Property value="#registerbutton > span.MuiButton-label" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;MuiButton-label&quot;>Create Your E-Shop Account&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="menu">
+      <Object frame="" ref="menu">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="menu" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/div/div/header/div/button/span/svg" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/header/div/button/span/svg" ref="xpath" pref="6"/>
+        <Property value="[object SVGAnimatedString]" ref="class" pref="7"/>
+        <Property value="#menu" ref="css" pref="8"/>
+        <Property value="svg" ref="type" pref="9"/>
+        <Property value="&lt;svg class=&quot;MuiSvgIcon-root MuiSvgIcon-fontSizeLarge&quot; focusable=&quot;false&quot; viewBox=&quot;0 0 24 24&quot; aria-hidden=&quot;true&quot; id=&quot;menu&quot;>&lt;path d=&quot;M3 15h18v-2H3v2zm0 4h18v-2H3v2zm0-8h18V9H3v2zm0-6v2h18V5H3z&quot;>&lt;/path>&lt;/svg>" ref="outerHTML" pref="10"/>
+        <Property value="svg" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="UserName">
+      <Object frame="" ref="UserName">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Avinash Sharma']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div[2]/div[3]/div/div/h6" ref="xpath" pref="6"/>
+        <Property value="MuiTypography-root MuiTypography-h6 MuiTypography-colorSecondary" ref="class" pref="7"/>
+        <Property value="html > body > div.MuiDrawer-root.MuiDrawer-modal > div.MuiPaper-root.MuiDrawer-paper MuiDrawer-paperAnchorLeft > div.sidebar > div.account > h6.MuiTypography-root.MuiTypography-h6 MuiTypography-colorSecondary" ref="css" pref="8"/>
+        <Property value="h6" ref="type" pref="9"/>
+        <Property value="&lt;h6 class=&quot;MuiTypography-root MuiTypography-h6 MuiTypography-colorSecondary&quot;>Avinash Sharma&lt;/h6>" ref="outerHTML" pref="10"/>
+        <Property value="h6" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="password1">
+      <Object frame="" ref="password1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="password" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//div[4]/div/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/form/div[4]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#password" ref="css" pref="8"/>
+        <Property value="password" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="password2">
+      <Object frame="" ref="password2">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="password" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='a123456A']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/form/div[4]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#password" ref="css" pref="8"/>
+        <Property value="password" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="confirmpassword1">
+      <Object frame="" ref="confirmpassword1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="confirmpassword" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//div[5]/div/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/form/div[5]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#confirmpassword" ref="css" pref="8"/>
+        <Property value="password" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="confirmpassword2">
+      <Object frame="" ref="confirmpassword2">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="confirmpassword" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//input[@value='a123456A'])[2]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/form/div[5]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#confirmpassword" ref="css" pref="8"/>
+        <Property value="password" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="quantity">
+      <Object frame="" ref="quantity">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="//select" ref="xpath" pref="6"/>
+        <Property value="quantity" ref="name" pref="2"/>
+        <Property value="product-quantity" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//select[@name='quantity']" ref="relative_xpath" pref="5"/>
+        <Property value="MuiSelect-root MuiSelect-select MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#product-quantity" ref="css" pref="8"/>
+        <Property value="select-one" ref="type" pref="9"/>
+        <Property value="&lt;select class=&quot;MuiSelect-root MuiSelect-select MuiInputBase-input MuiInput-input&quot; aria-invalid=&quot;false&quot; id=&quot;product-quantity&quot; name=&quot;quantity&quot;>&lt;option value=&quot;1&quot;>1&lt;/option>&lt;option value=&quot;2&quot;>2&lt;/option>&lt;option value=&quot;3&quot;>3&lt;/option>&lt;option value=&quot;4&quot;>4&lt;/option>&lt;option value=&quot;5&quot;>5&lt;/option>&lt;option value=&quot;6&quot;>6&lt;/option>&lt;option value=&quot;7&quot;>7&lt;/option>&lt;option value=&quot;8&quot;>8&lt;/option>&lt;option value=&quot;9&quot;>9&lt;/option>&lt;/select>" ref="outerHTML" pref="10"/>
+        <Property value="select" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add_to_your_basket">
+      <Object frame="" ref="Add_to_your_basket">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Add to your basket']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div[2]/div/button/span)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiButton-label" ref="class" pref="7"/>
+        <Property value="#a2b > span.MuiButton-label" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;MuiButton-label&quot;>Add to your basket&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="CartButton">
+      <Object frame="" ref="CartButton">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="basket" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[@id=&quot;basket&quot;]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/header/div/button[2]/span/a/span/svg/path" ref="xpath" pref="6"/>
+        <Property value="[object SVGAnimatedString]" ref="class" pref="7"/>
+        <Property value="span.MuiBadge-root > svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeLarge > path" ref="css" pref="8"/>
+        <Property value="path" ref="type" pref="9"/>
+        <Property value="&lt;a class=&quot;linkstyle&quot; id=&quot;basket&quot; href=&quot;/cts-shop/basket&quot;>&lt;span class=&quot;MuiBadge-root&quot;>&lt;svg class=&quot;MuiSvgIcon-root MuiSvgIcon-fontSizeLarge&quot; focusable=&quot;false&quot; viewBox=&quot;0 0 24 24&quot; aria-hidden=&quot;true&quot;>&lt;path d=&quot;M17.21 9l-4.38-6.56c-.19-.28-.51-.42-.83-.42-.32 0-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1h-4.79zM9 9l3-4.4L15 9H9zm3 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z&quot;>&lt;/path>&lt;/svg>&lt;span class=&quot;MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorSecondary&quot;>1&lt;/span>&lt;/span>&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="a" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Quantity_Order">
+      <Object frame="" ref="Quantity_Order">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//p[@class=&quot;MuiTypography-root MuiTypography-body1&quot;][contains(text(),'Quantity')]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/div/div[2]/div/p[4]" ref="xpath" pref="6"/>
+        <Property value="MuiTypography-root MuiTypography-body1" ref="class" pref="7"/>
+        <Property value="html > body > #root > div > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item MuiGrid-grid-md-9 > div.MuiPaper-root.MuiCard-root productthumb MuiPaper-rounded > div.productdetails > div.MuiCardContent-root.productthumbtitle > p.MuiTypography-root.MuiTypography-body1" ref="css" pref="8"/>
+        <Property value="p" ref="type" pref="9"/>
+        <Property value="&lt;p class=&quot;MuiTypography-root MuiTypography-body1&quot;>Quantity: 7&lt;/p>" ref="outerHTML" pref="10"/>
+        <Property value="p" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Basket">
+      <Object frame="" ref="Basket">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Basket']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/h4" ref="xpath" pref="6"/>
+        <Property value="MuiTypography-root MuiTypography-h4 MuiTypography-colorPrimary MuiTypography-alignCenter" ref="class" pref="7"/>
+        <Property value="html > body > #root > div > h4.MuiTypography-root.MuiTypography-h4 MuiTypography-colorPrimary MuiTypography-alignCenter" ref="css" pref="8"/>
+        <Property value="h4" ref="type" pref="9"/>
+        <Property value="&lt;h4 class=&quot;MuiTypography-root MuiTypography-h4 MuiTypography-colorPrimary MuiTypography-alignCenter&quot;>Basket&lt;/h4>" ref="outerHTML" pref="10"/>
+        <Property value="h4" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="TotalCost">
+      <Object frame="" ref="TotalCost">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/html/body/div/div/div/div[2]/div/h6[2]/span" ref="xpath" pref="6"/>
+        <Property value="//*[normalize-space(text())='£4886']" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > body > #root > div > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.summarywidth MuiGrid-item MuiGrid-grid-md-3 > div.MuiBox-root.MuiBox-root-13 box > h6.MuiTypography-root.MuiTypography-h6 MuiTypography-colorPrimary > span" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span>£4886&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Proceed to checkout">
+      <Object frame="" ref="Proceed to checkout">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Proceed to checkout']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div[2]/div/a/button/span)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiButton-label" ref="class" pref="7"/>
+        <Property value="html > body > #root > div > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.summarywidth MuiGrid-item MuiGrid-grid-md-3 > div.MuiBox-root.MuiBox-root-13 box > #proceedtocheckout > button.MuiButtonBase-root.MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth > span.MuiButton-label" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;MuiButton-label&quot;>Proceed to checkout&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="datitle">
+      <Object frame="" ref="datitle">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="datitle" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/div/div/div/div[2]/div/div/div/form/div/div/input" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div[2]/div/div/div/form/div/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#datitle" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;datitle&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="datitle1">
+      <Object frame="" ref="datitle1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="datitle" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='PhoneOrder']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div[2]/div/div/div/form/div/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#datitle" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;datitle&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="dafirstname">
+      <Object frame="" ref="dafirstname">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="dafirstname" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Avinash']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div/form/div[2]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#dafirstname" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;dafirstname&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="dalastname">
+      <Object frame="" ref="dalastname">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="dalastname" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Sharma']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div/form/div[3]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#dalastname" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;dalastname&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="daaddressline1">
+      <Object frame="" ref="daaddressline1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="daaddressline1" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Sam']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div/form/div[4]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#daaddressline1" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;daaddressline1&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="daaddressline2">
+      <Object frame="" ref="daaddressline2">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="daaddressline2" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Smith']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div/form/div[5]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#daaddressline2" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;daaddressline2&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="dacity">
+      <Object frame="" ref="dacity">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="dacity" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='San Jose']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div/form/div[6]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#dacity" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;dacity&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="dastateprovinceregion">
+      <Object frame="" ref="dastateprovinceregion">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="dastateprovinceregion" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='CA']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div/form/div[7]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#dastateprovinceregion" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;dastateprovinceregion&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="dazippostcode">
+      <Object frame="" ref="dazippostcode">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="dazippostcode" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='95111']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div/form/div[8]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#dazippostcode" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;dazippostcode&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Next">
+      <Object frame="" ref="Next">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Next']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div[2]/div[2]/div/button[2]/span)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiButton-label" ref="class" pref="7"/>
+        <Property value="#buttonnext > span.MuiButton-label" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;MuiButton-label&quot;>Next&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="cardnumber">
+      <Object frame="" ref="cardnumber">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="cardnumber" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/div/div/div/div[2]/div/div/div/form/div/div/input" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div[2]/div/div/div/form/div/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#cardnumber" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;cardnumber&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="cardnumber1">
+      <Object frame="" ref="cardnumber1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="cardnumber" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='1111111111111113']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div[2]/div/div/div/form/div/div/input)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#cardnumber" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;cardnumber&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="nameoncard">
+      <Object frame="" ref="nameoncard">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="nameoncard" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//div[2]/div/input" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div/form/div[2]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#nameoncard" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;nameoncard&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="nameoncard1">
+      <Object frame="" ref="nameoncard1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="nameoncard" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='Master']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div/form/div[2]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#nameoncard" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;nameoncard&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="expirymonth">
+      <Object frame="" ref="expirymonth">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="expirymonth" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='12']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div/form/div[3]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#expirymonth" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;expirymonth&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="expiryyear">
+      <Object frame="" ref="expiryyear">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="expiryyear" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='2025']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div/form/div[4]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#expiryyear" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;expiryyear&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="securitycode">
+      <Object frame="" ref="securitycode">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="securitycode" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@value='123']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div/form/div[5]/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input MuiInput-input" ref="class" pref="7"/>
+        <Property value="#securitycode" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;securitycode&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Confirm">
+      <Object frame="" ref="Confirm">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[normalize-space(text())='Confirm']" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/div/div/div[2]/div[2]/div/button[2]/span)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiButton-label" ref="class" pref="7"/>
+        <Property value="#buttonconfirm > span.MuiButton-label" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;MuiButton-label&quot;>Confirm&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="OrderNo">
+      <Object frame="" ref="OrderNo">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(/html/body/div/div/div/div[2]/div/p/strong)[1]" ref="xpath" pref="6"/>
+        <Property value="//*[normalize-space(text())='ESHOP359053']" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="p.MuiTypography-root.MuiTypography-body1 > strong" ref="css" pref="8"/>
+        <Property value="strong" ref="type" pref="9"/>
+        <Property value="&lt;strong>ESHOP429828&lt;/strong>" ref="outerHTML" pref="10"/>
+        <Property value="strong" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="UserEmail">
+      <Object frame="" ref="UserEmail">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/html/body/div/div/div/div[2]/div/p[2]/strong" ref="xpath" pref="6"/>
+        <Property value="//*[normalize-space(text())='AVI_4208542@gmail.com']" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="p.MuiTypography-root.MuiTypography-body2 > strong" ref="css" pref="8"/>
+        <Property value="strong" ref="type" pref="9"/>
+        <Property value="&lt;strong>AVI_5123100@gmail.com&lt;/strong>" ref="outerHTML" pref="10"/>
+        <Property value="strong" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Date of Deleviry">
+      <Object frame="" ref="Date of Deleviry">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div/div/h6" ref="xpath" pref="6"/>
+        <Property value="//*[normalize-space(text())='August 21th']" ref="relative_xpath" pref="5"/>
+        <Property value="MuiTypography-root MuiTypography-h6 MuiTypography-colorPrimary" ref="class" pref="7"/>
+        <Property value="html > body > #root > div > div.MuiBox-root.MuiBox-root-21 > div.MuiBox-root.MuiBox-root-22 > div.MuiBox-root.MuiBox-root-25 > div.MuiGrid-root.MuiGrid-container MuiGrid-justify-xs-center > div.MuiGrid-root.MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 > h6.MuiTypography-root.MuiTypography-h6 MuiTypography-colorPrimary" ref="css" pref="8"/>
+        <Property value="h6" ref="type" pref="9"/>
+        <Property value="&lt;h6 class=&quot;MuiTypography-root MuiTypography-h6 MuiTypography-colorPrimary&quot;>December 26th&lt;/h6>" ref="outerHTML" pref="10"/>
+        <Property value="h6" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Search product or brand1">
+      <Object frame="" ref="Search product or brand1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="productsearch" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@placeholder='Search product or brand']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/div/input" ref="xpath" pref="6"/>
+        <Property value="MuiInputBase-input" ref="class" pref="7"/>
+        <Property value="#productsearch" ref="css" pref="8"/>
+        <Property value="text" ref="type" pref="9"/>
+        <Property value="&lt;input id=&quot;productsearch&quot; placeholder=&quot;Search product or brand&quot; type=&quot;text&quot; aria-label=&quot;Product search&quot; class=&quot;MuiInputBase-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="[object SVGAnimatedString]1">
+      <Object frame="" ref="[object SVGAnimatedString]1">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/div/div/div/div/button/span/svg" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/div/div/button/span/svg" ref="xpath" pref="6"/>
+        <Property value="[object SVGAnimatedString]" ref="class" pref="7"/>
+        <Property value="#searchicon > span.MuiIconButton-label > svg.MuiSvgIcon-root" ref="css" pref="8"/>
+        <Property value="svg" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="" ref="Registration Page">
+    <ObjectGroup ref="Menu Button">
+      <Object frame="" ref="Menu Button">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//span[@class=&quot;MuiIconButton-label&quot;]/*[@id=&quot;menu&quot;]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/div/header/div/button/span/svg/path" ref="xpath" pref="6"/>
+        <Property value="[object SVGAnimatedString]" ref="class" pref="7"/>
+        <Property value="#menu > path" ref="css" pref="8"/>
+        <Property value="path" ref="type" pref="9"/>
+        <Property value="&lt;svg class=&quot;MuiSvgIcon-root MuiSvgIcon-fontSizeLarge&quot; focusable=&quot;false&quot; viewBox=&quot;0 0 24 24&quot; aria-hidden=&quot;true&quot; id=&quot;menu&quot;>&lt;path d=&quot;M3 15h18v-2H3v2zm0 4h18v-2H3v2zm0-8h18V9H3v2zm0-6v2h18V5H3z&quot;>&lt;/path>&lt;/svg>" ref="outerHTML" pref="10"/>
+        <Property value="svg" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login">
+      <Object frame="" ref="Login">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//*[@id=&quot;login&quot;]/div[2]/span" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div[2]/div[3]/div/nav/div/div[2]/span)[1]" ref="xpath" pref="6"/>
+        <Property value="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock" ref="class" pref="7"/>
+        <Property value="html > body > div.MuiDrawer-root.MuiDrawer-modal > div.MuiPaper-root.MuiDrawer-paper MuiDrawer-paperAnchorLeft > div.sidebar > nav.MuiList-root.MuiList-padding > #login > div.MuiListItemText-root > span.MuiTypography-root.MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock" ref="css" pref="8"/>
+        <Property value="span" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock&quot;>Login&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="LoginEmail">
+      <Object frame="" ref="LoginEmail">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@id=&quot;email&quot;]" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;email&quot; required=&quot;&quot; type=&quot;text&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="LoginPassword">
+      <Object frame="" ref="LoginPassword">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//input[@id=&quot;password&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;input aria-invalid=&quot;false&quot; id=&quot;password&quot; required=&quot;&quot; type=&quot;password&quot; class=&quot;MuiInputBase-input MuiInput-input&quot; value=&quot;&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="LoginButton">
+      <Object frame="" ref="LoginButton">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="" ref="relative_xpath" pref="5"/>
+        <Property value="//button[@id=&quot;buttonlogin&quot;]" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;button class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth&quot; tabindex=&quot;0&quot; type=&quot;button&quot; id=&quot;buttonlogin&quot;>&lt;span class=&quot;MuiButton-label&quot;>Log In&lt;/span>&lt;span class=&quot;MuiTouchRipple-root&quot;>&lt;/span>&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="LogOut">
+      <Object frame="" ref="LogOut">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//span[contains(text(),'Logout')]" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;span class=&quot;MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock&quot;>Logout&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="span" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

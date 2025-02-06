@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,Email,Password,First Name,Last Name
+01_UI_Test_Cases,TC_02_Register_Your_Account,1,1,AVI_3126015@gmail.com,b0NVmVfzlCTvQW9BQu8Mhg== Enc,Avinash,Sharma
+01_UI_Test_Cases,LogOutFlow,1,1,,,Avinash,

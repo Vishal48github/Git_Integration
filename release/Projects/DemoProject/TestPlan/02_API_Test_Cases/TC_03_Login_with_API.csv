@@ -1,0 +1,17 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,store variable value [<Condition>] in data sheet[<Data>],storeVariableInDataSheet,API_Registration:Email,%API_Email%,
+2,Browser,store variable value [<Condition>] in data sheet[<Data>],storeVariableInDataSheet,API_Registration:password,%API_Password%,
+3,Browser,store variable value [<Condition>] in data sheet[<Data>],storeVariableInDataSheet,API_Registration:id,%API_ID%,
+4,Webservice,"Set End Point ",setEndPoint,@http://localhost:8180/api/customer-rest/customer/login,,
+5,Webservice,"Add Header ",addHeader,@Content-Type=application/json,,
+6,Webservice,"PUT Rest Request ",postRestRequest,"{
+    ""err"": """",
+    ""email"": ""{API_Registration:Email}"",
+    ""password"": ""{API_Registration:password}""
+}",,
+7,Webservice,"Assert Response Code ",assertResponseCode,API_Registration:ResponseCode,,
+8,Webservice,"Assert JSON Element Equals ",assertJSONelementEquals,API_Registration:Email,$.email,
+9,Webservice,"Assert JSON Element Equals ",assertJSONelementEquals,API_Registration:id,$.id,
+10,Webservice,"Assert JSON Element Equals ",assertJSONelementEquals,API_Registration:firstName,$.firstName,
+11,Webservice,"Assert JSON Element Equals ",assertJSONelementEquals,API_Registration:lastName,$.lastName,
+12,Webservice,"Assert JSON Element Equals ",assertJSONelementEquals,API_Registration:password,$.password,

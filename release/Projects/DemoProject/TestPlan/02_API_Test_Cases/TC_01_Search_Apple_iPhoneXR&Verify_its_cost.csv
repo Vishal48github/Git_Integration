@@ -1,0 +1,7 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Webservice,"Set End Point ",setEndPoint,@http://172.40.0.31:8180/api/catalogue-rest/product/search?productName=Apple%20iPhone%20XR,,
+2,Webservice,"GET Rest Request ",getRestRequest,,,
+3,Webservice,"Assert Response Code ",assertResponseCode,API:StatusCode,,
+4,Webservice,"Assert JSON Element Equals ",assertJSONelementEquals,API:Quatity,$..productQuantity,
+5,Webservice,"Assert JSON Element Equals ",assertJSONelementEquals,API:Cost,$..productPrice,
+6,Webservice,"Assert JSON Element Equals ",assertJSONelementEquals,API:ProductName,$..productName,

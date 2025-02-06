@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>assureit-engine</name>
+  <comment>NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>assureit-testdata-csv</project>
+    <project>assureit-datalib</project>
+    <project>assureit-qc-connection</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

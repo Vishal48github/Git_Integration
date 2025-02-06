@@ -1,0 +1,4 @@
+Scenario,Flow,Iteration,SubIteration,Search Product Name,Product Name Text,Product Cost,TotalCost,TotalQuantity
+01_UI_Test_Cases,TC_01_Search_Apple_iPhone XR&Verify_its_cost,1,1,Apple iPhone XR,Apple iPhone XR,£698,,
+01_UI_Test_Cases,TC_04_Verify_Purchage_Flow,1,1,Apple iPhone XR,Apple iPhone XR,,4886," 7"
+01_UI_Test_Cases,TC_05_Fail_Search_Apple_iPhone XR&Verify_its_cost,1,1,Apple iPhone XR,Nexa,60000,6000," 7"

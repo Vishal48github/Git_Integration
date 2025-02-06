@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://172.40.0.31:3000/,Start Param,
+2,Browser,Wait for Page to be loaded,waitForPageLoaded,,,
+3,Search product or brand1,"Click the [<Object>] ",Click,,,React
+4,Search product or brand1,"Click the [<Object>] ",Click,,,React
+5,Execute,,01_UI_Test_Cases:RandomEmailID,,,
+6,Search product or brand1,Enter the value [<Data>] in the Field [<Object>],Set,%EmailID%,,React
+7,Search product or brand1,Enter the value [<Data>] in the Field [<Object>],storeTextinDataSheet,A:EmailForUI,,React
+8,Browser,Take screenshot of the current page and store it in the location [<Input>],takeScreenshot,,End Param,

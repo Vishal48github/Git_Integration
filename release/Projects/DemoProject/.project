@@ -1,0 +1,129 @@
+{
+  "id" : "DemoProject",
+  "name" : "DemoProject",
+  "version" : "1.3",
+  "attributes" : [ ],
+  "tags" : [ ],
+  "_meta" : [ {
+    "type" : "attribute",
+    "name" : "scenario",
+    "desc" : "High level classification of test requirement/cases grouped together",
+    "ref" : "com.newvision.assureit.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@smoke",
+    "desc" : "Non-exhaustive set of tests that aim at ensuring that the most important functions work",
+    "ref" : "com.newvision.assureit.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@uat",
+    "ref" : "com.newvision.assureit.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@load",
+    "ref" : "com.newvision.assureit.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "01_UI_Test_Cases",
+    "ref" : "com.newvision.assureit.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  } ],
+  "data" : [ {
+    "id" : "TC_01_Search_Apple_iPhoneXR&Verify_its_cost",
+    "name" : "TC_01_Search_Apple_iPhoneXR&Verify_its_cost",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "02_API_Test_Cases"
+    } ]
+  }, {
+    "id" : "TC_02_Register_Your_Account",
+    "name" : "TC_02_Register_Your_Account",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "02_API_Test_Cases"
+    } ]
+  }, {
+    "id" : "TC_03_Login_with_API",
+    "name" : "TC_03_Login_with_API",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "02_API_Test_Cases"
+    } ]
+  }, {
+    "id" : "TC_01_Search_Apple_iPhone XR&Verify_its_cost",
+    "name" : "TC_01_Search_Apple_iPhone XR&Verify_its_cost",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "01_UI_Test_Cases"
+    } ]
+  }, {
+    "id" : "TC_03_Verify_Login&LogOut_Flow",
+    "name" : "TC_03_Verify_Login&LogOut_Flow",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "01_UI_Test_Cases"
+    } ]
+  }, {
+    "id" : "TC_04_Verify_Purchage_Flow",
+    "name" : "TC_04_Verify_Purchage_Flow",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "01_UI_Test_Cases"
+    } ]
+  }, {
+    "id" : "TC_04_Payment_API",
+    "name" : "TC_04_Payment_API",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "02_API_Test_Cases"
+    } ]
+  }, {
+    "id" : "TC01_Registration_Via_API_do_UILogin",
+    "name" : "TC01_Registration_Via_API_do_UILogin",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "API and UI combination Test Cases"
+    } ]
+  }, {
+    "id" : "TC_05_Fail_Search_Apple_iPhone XR&Verify_its_cost",
+    "name" : "TC_05_Fail_Search_Apple_iPhone XR&Verify_its_cost",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "01_UI_Test_Cases"
+    } ]
+  }, {
+    "id" : "Test",
+    "name" : "Test",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "LoopProject"
+    } ]
+  }, {
+    "id" : "LoopSheet",
+    "name" : "LoopSheet",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "LoopProject"
+    } ]
+  } ]
+}

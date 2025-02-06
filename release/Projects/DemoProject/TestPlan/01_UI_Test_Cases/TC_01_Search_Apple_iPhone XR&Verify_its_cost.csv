@@ -1,0 +1,8 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,01_UI_Test_Cases:Naviagation Url,,,
+2,Search product or brand,"Click the [<Object>] ",Click,,,React
+3,Search product or brand,Enter the value [<Data>] in the Field [<Object>],Set,Shopify:Search Product Name,,React
+4,Search Button,"Click the [<Object>] ",Click,,,React
+5,Product Name,"Click the [<Object>] ",Click,,,React
+6,Product Name Text,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,Shopify:Product Name Text,,React
+7,Product Cost,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,Shopify:Product Cost,,React

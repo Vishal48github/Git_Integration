@@ -1,0 +1,14 @@
+<Root ref="DemoProject" type="RC">
+    <Folder ref="Navigation">
+        <Scenario ref="01_UI_Test_Cases">
+            <TestCase exeType="Executable" ref="Login"/>
+            <TestCase exeType="Executable" ref="LoginFlow"/>
+            <TestCase exeType="Executable" ref="LogOutFlow"/>
+            <TestCase exeType="Executable" ref="Menu_Login"/>
+            <TestCase exeType="Executable" ref="Naviagation Url"/>
+            <TestCase exeType="Executable" ref="PaymentFlow"/>
+            <TestCase exeType="Executable" ref="RandomEmailID"/>
+            <TestCase exeType="Executable" ref="RandomSeven"/>
+        </Scenario>
+    </Folder>
+</Root>

@@ -1,0 +1,5 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Webservice,"Set End Point ",setEndPoint,@http://172.40.0.31:8180/api/payment-rest/payment/pay,,
+2,Webservice,"Add Header ",addHeader,@Content-Type=application/json,,
+3,Webservice,"PUT Rest Request ",postRestRequest,"{""amount"":2,""credit_card"":{""cardNumber"":""1111111111111113"",""cvv"":""123"",""expiration_month"":""12"",""expiration_year"":""2025""},""billing_address"":{""name"":""Master"",""street_address"":""8320 E. West St."",""city"":""Spokane"",""state"":""WA"",""zip"":""85284""}}",,
+4,Webservice,"Assert Response Code ",assertResponseCode,Payment:StatusCode,,

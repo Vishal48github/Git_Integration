@@ -1,0 +1,2 @@
+Scenario,Flow,Iteration,SubIteration,ProductName,Cost,Quatity,StatusCode
+02_API_Test_Cases,TC_01_Search_Apple_iPhoneXR&Verify_its_cost,1,1,"[""Apple iPhone XR""]",[698],[20],200

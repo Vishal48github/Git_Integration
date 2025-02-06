@@ -1,0 +1,2 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,API and UI combination Test Cases,TC01_Registration_Via_API_do_UILogin,Single,Passed,Chrome,Default,Any

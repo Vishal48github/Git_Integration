@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,Email,ResponseCode,id,firstName,lastName,password
+02_API_Test_Cases,TC_02_Register_Your_Account,1,1,AVI_8019053@gmail.com,200,27,Avinash,Sharma,a123456A
+02_API_Test_Cases,TC_03_Login_with_API,1,1,AVI_8019053@gmail.com,200,27,Avinash,Sharma,a123456A

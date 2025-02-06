@@ -1,0 +1,6 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,01_UI_Test_Cases,TC_01_Search_Apple_iPhone XR&Verify_its_cost,Single,Passed,Chrome Headless,Default,Any
+false,01_UI_Test_Cases,TC_02_Register_Your_Account,Single,Passed,Chrome,Default,Any
+true,01_UI_Test_Cases,TC_03_Verify_Login&LogOut_Flow,Single,Passed,Chrome,Default,Any
+true,01_UI_Test_Cases,TC_04_Verify_Purchage_Flow,Single,Failed,Chrome,Default,Any
+true,01_UI_Test_Cases,TC_05_Fail_Search_Apple_iPhone XR&Verify_its_cost,Single,Failed,Chrome,Default,Any
